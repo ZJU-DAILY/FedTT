@@ -1,4 +1,4 @@
-# FedTDP
+# FedTT
 
 In this paper, we propose FedTT, an effective, efficient, privacy-aware cross-city traffic knowledge transfer framework,
 which transforms the traffic domain of data from source cities and trains the traffic model on transformed data in the
