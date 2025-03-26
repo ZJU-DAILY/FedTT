@@ -18,8 +18,8 @@ Python.version = 3.9.21<br>
 Other dependencies are listed in requirements.txt.
 
 All the experiments are conducted in the federated environment on four nodes, one as a server and the other three as
-clients, each equipped with two Intel(R) Xeon(R) CPU E5-2650 v4@2.20GHz 12-core processors, 128GB of RAM, and an
-internet speed of 100MB/s.
+clients, each equipped with two Intel(R) Xeon(R) CPU E5-2650 v4@2.20GHz 12-core processors, 128GB of RAM, and a
+Internet speed of 100MB/s.
 
 ## Datasets
 
@@ -32,3 +32,4 @@ The running example of FedTT is as follows.
 
 ````
 python main.py --address 'localhost' --batch_size 128 --clients_num 3--device 'cuda' --epoch 100 --frozen 5 --learning_rate 0.005 --model 'mlp' --task 'flow' --test_split 0.1 --time_step 12 --train_split 0.8 --val_split 0.1
+
