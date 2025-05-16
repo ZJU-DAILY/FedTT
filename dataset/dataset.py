@@ -18,9 +18,9 @@ class Dataset(object):
         if self.args.task == 'flow':
             self.data = self.data[..., 0]
         elif self.args.task == 'speed':
-            self.data = self.data[..., 1]
-        elif self.args.task == 'occupancy':
             self.data = self.data[..., 2]
+        elif self.args.task == 'occupancy':
+            self.data = self.data[..., 1]
         else:
             raise Exception('Unsupported task.')
 
