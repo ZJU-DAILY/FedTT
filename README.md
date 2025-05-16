@@ -28,4 +28,4 @@ In this paper, we used 4 public datasets including PeMSD4, PeMSD8, FT-AED, HK-Tr
 The running example of FedTT is as follows.
 
 ````
-python main.py --address 'localhost' --batch_size 128 --clients_num 3--device 'cuda' --epoch 100 --frozen 5 --learning_rate 0.005 --model 'mlp' --task 'flow' --test_split 0.1 --time_step 12 --train_split 0.8 --val_split 0.1
+python main.py --address 'localhost' --batch_size 128 --clients_num 3 --device 'cuda' --epoch 1000 --frozen 5 --patience 100 --learning_rate 0.0005 --model 'mlp' --task 'flow' --test_split 0.1 --time_step 12 --train_split 0.8 --val_split 0.1
